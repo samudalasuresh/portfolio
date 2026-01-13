@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Darshini Amudala — AI/ML Portfolio</title>
+  <meta name="description" content="AI/ML Engineer portfolio — GenAI, RAG, MLOps, and production ML systems." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="logo" href="#top">Darshini</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="top">
+      <div class="hero-left">
+        <p class="tag">AI/ML Engineer • GenAI • MLOps</p>
+        <h1>Building practical AI systems that ship.</h1>
+        <p class="sub">
+          I design, deploy, and optimize ML/LLM solutions—from data pipelines to production APIs.
+          My focus: Retrieval-Augmented Generation (RAG), NLP, and end-to-end MLOps.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn ghost" href="https://github.com/samudalasuresh" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/darshiniamudala" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn ghost" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+
+        <div class="quickfacts">
+          <div class="fact">
+            <div class="fact-title">Location</div>
+            <div class="fact-value">Austin, TX</div>
+          </div>
+          <div class="fact">
+            <div class="fact-title">Focus</div>
+            <div class="fact-value">RAG • NLP • Production ML</div>
+          </div>
+          <div class="fact">
+            <div class="fact-title">Tooling</div>
+            <div class="fact-value">Python • AWS • Docker • K8s</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card highlight">
+          <div class="card-title">Featured Project</div>
+          <h2>DocWise — RAG Document Q&A</h2>
+          <p>
+            Chat with PDFs and internal docs using a retrieval layer + LLM, with evaluation, guardrails, and deployable API.
+          </p>
+          <div class="badges">
+            <span>RAG</span><span>FAISS</span><span>FastAPI</span><span>Streamlit</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/samudalasuresh/docwise-rag" target="_blank" rel="noreferrer">Code</a>
+</div>
+          </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="container section" id="projects">
+      <h2>Projects</h2>
+      <p class="muted">Two strong projects + clean READMEs beats ten small ones.</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>DocWise — RAG Document Q&A</h3>
+          <p class="muted">
+            Upload PDFs, chunk + embed, retrieve relevant passages, and answer questions with citations and safety checks.
+          </p>
+          <ul class="bullets">
+            <li>RAG pipeline with chunking, embeddings, and vector search</li>
+            <li>Evaluation set + simple quality metrics to reduce hallucinations</li>
+            <li>FastAPI backend + Streamlit UI</li>
+          </ul>
+          <div class="badges">
+            <span>LLMs</span><span>RAG</span><span>FAISS</span><span>FastAPI</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/samudalasuresh/docwise-rag" target="_blank" rel="noreferrer">GitHub</a>
+</div>
+        </article>
+
+        <article class="card">
+          <h3>ChurnShield — Customer Churn Prediction</h3>
+          <p class="muted">
+            A classic ML project with strong feature engineering, calibration, and clear business metrics.
+          </p>
+          <ul class="bullets">
+            <li>Scikit-learn pipeline: preprocessing, model training, calibration</li>
+            <li>Explainability with SHAP for stakeholder-friendly insights</li>
+            <li>Thresholding tied to cost/benefit analysis</li>
+          </ul>
+          <div class="badges">
+            <span>Sklearn</span><span>SHAP</span><span>Metrics</span><span>Explainability</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/samudalasuresh/churnshield" target="_blank" rel="noreferrer">GitHub</a>
+</div>
+        </article>
+
+        <article class="card">
+          <h3>PipePilot — MLOps Training + Deployment</h3>
+          <p class="muted">
+            An end-to-end MLOps mini-platform: experiment tracking, model registry, Dockerized deployment, and monitoring.
+          </p>
+          <ul class="bullets">
+            <li>MLflow tracking + model registry + versioning</li>
+            <li>Docker image for reproducible inference service</li>
+            <li>Basic drift checks + retrain trigger (starter)</li>
+          </ul>
+          <div class="badges">
+            <span>MLflow</span><span>Docker</span><span>CI/CD</span><span>Monitoring</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="https://github.com/samudalasuresh/pipepilot-mlops" target="_blank" rel="noreferrer">GitHub</a>
+</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="skills">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">PyTorch</span>
+        <span class="chip">TensorFlow</span>
+        <span class="chip">LLMs / RAG</span>
+        <span class="chip">NLP</span>
+        <span class="chip">LangChain / LangGraph</span>
+        <span class="chip">Vector DBs</span>
+        <span class="chip">AWS / Azure / GCP</span>
+        <span class="chip">Docker</span>
+        <span class="chip">Kubernetes</span>
+        <span class="chip">MLflow</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Spark</span>
+      </div>
+    </section>
+
+    <section class="container section" id="about">
+      <h2>About</h2>
+      <div class="about">
+        <p>
+          I’m Darshini, an AI/ML Engineer who enjoys building end-to-end ML systems and practical GenAI products.
+          I care about clean engineering, measurable improvements, and solutions that are easy for teams to adopt.
+        </p>
+        <p class="muted tiny">
+          Tip: keep this section short. Recruiters care more about projects + impact.
+        </p>
+      </div>
+    </section>
+
+    <section class="container section" id="contact">
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>Want to chat? Reach me here:</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:darshiniamudala09@gmail.com">darshiniamudala09@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/darshiniamudala" target="_blank" rel="noreferrer">linkedin.com/in/YOUR_LINKEDIN</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/samudalasuresh" target="_blank" rel="noreferrer">github.com/YOUR_GITHUB</a></li>
+                  <li><strong>Resume:</strong> <a href="resume.pdf" target="_blank" rel="noreferrer">resume.pdf</a></li>
+        </ul>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Darshini Amudala</span>
+      <span class="muted">Built with simple HTML + CSS.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
